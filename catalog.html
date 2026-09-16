@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Browse Pets - Paws and Claws Animal Shelter</title>
+</head>
+<body>
+
+  <header>
+    <img src="images/logo.png" alt="Paws and Claws Animal Shelter logo" width="120" height="120">
+    <h1>Paws and Claws Animal Shelter</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="catalog.html">Browse Pets</a></li>
+        <li><a href="adopter-profile.html">My Profile</a></li> <!-- To be added. -->
+        <li><a href="staff-dashboard.html">Staff Dashboard</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <h2>Available Pets</h2>
+
+    <section id="filters">
+      <h3>Filter Pets</h3>
+      <form action="#" method="get">
+
+        <fieldset>
+          <legend>Type</legend>
+          <label><input type="checkbox" name="type" value="dog"> Dogs</label>
+          <label><input type="checkbox" name="type" value="cat"> Cats</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Age Group</legend>
+          <label for="age-group">Age Group</label>
+          <select id="age-group" name="ageGroup">
+            <option value="">Any</option>
+            <option value="puppy-kitten">Puppy / Kitten</option>
+            <option value="young">Young</option>
+            <option value="adult">Adult</option>
+            <option value="senior">Senior</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Size</legend>
+          <label for="size">Size</label>
+          <select id="size" name="size">
+            <option value="">Any</option>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+          </select>
+        </fieldset>
+
+        <button type="submit">Apply Filters</button>
+      </form>
+    </section>
+
+    <section id="pet-grid">
+
+      <article>
+        <img src="images/pets/pet-buddy.jpg" alt="Buddy, a Labrador Retriever" width="150">
+        <h3>Buddy</h3>
+        <dl>
+          <dt>Type</dt><dd>Dog</dd>
+          <dt>Breed</dt><dd>Labrador Retriever</dd>
+          <dt>Age</dt><dd>2 years</dd>
+          <dt>Size</dt><dd>Large</dd>
+          <dt>Status</dt><dd>Available</dd>
+        </dl>
+        <a href="pet-details.html">View Details</a>  <!-- Buddy is the sample for the pet-details for now. -->
+      </article>
+
+      <article>
+        <img src="images/pets/pet-rocky.jpg" alt="Rocky, a Beagle" width="150">
+        <h3>Rocky</h3>
+        <dl>
+          <dt>Type</dt><dd>Dog</dd>
+          <dt>Breed</dt><dd>Beagle</dd>
+          <dt>Age</dt><dd>3 years</dd>
+          <dt>Size</dt><dd>Medium</dd>
+          <dt>Status</dt><dd>Available</dd>
+        </dl>
+        <a href="pet-details.html">View Details</a>
+      </article>
+
+      <article>
+        <img src="images/pets/pet-mimi-dog.jpg" alt="Mimi, a Poodle mix puppy" width="150">
+        <h3>Mimi</h3>
+        <dl>
+          <dt>Type</dt><dd>Dog</dd>
+          <dt>Breed</dt><dd>Poodle Mix</dd>
+          <dt>Age</dt><dd>6 months</dd>
+          <dt>Size</dt><dd>Small</dd>
+          <dt>Status</dt><dd>Pending</dd>
+        </dl>
+        <a href="pet-details.html">View Details</a>
+      </article>
+
+      <article>
+        <img src="images/pets/pet-luna.jpg" alt="Luna, a Domestic Shorthair cat" width="150">
+        <h3>Luna</h3>
+        <dl>
+          <dt>Type</dt><dd>Cat</dd>
+          <dt>Breed</dt><dd>Domestic Shorthair</dd>
+          <dt>Age</dt><dd>1 year</dd>
+          <dt>Size</dt><dd>Small</dd>
+          <dt>Status</dt><dd>Available</dd>
+        </dl>
+        <a href="pet-details.html">View Details</a>
+      </article>
+
+      <article>
+        <img src="images/pets/pet-milo.jpg" alt="Milo, a Maine Coon cat" width="150">
+        <h3>Milo</h3>
+        <dl>
+          <dt>Type</dt><dd>Cat</dd>
+          <dt>Breed</dt><dd>Maine Coon</dd>
+          <dt>Age</dt><dd>4 years</dd>
+          <dt>Size</dt><dd>Large</dd>
+          <dt>Status</dt><dd>Available</dd>
+        </dl>
+        <a href="pet-details.html">View Details</a>
+      </article>
+
+      <article>
+        <img src="images/pets/pet-whiskers.jpg" alt="Whiskers, a Siamese cat" width="150">
+        <h3>Whiskers</h3>
+        <dl>
+          <dt>Type</dt><dd>Cat</dd>
+          <dt>Breed</dt><dd>Siamese</dd>
+          <dt>Age</dt><dd>7 years</dd>
+          <dt>Size</dt><dd>Small</dd>
+          <dt>Status</dt><dd>Adopted</dd>
+        </dl>
+        <a href="pet-details.html">View Details</a>
+      </article>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Paws and Claws Animal Shelter &mdash; SynCrewnous Team, MO-IT115</p>
+  </footer>
+
+</body>
+</html>
